@@ -20,7 +20,8 @@ INSERT INTO internships values
 ('High School - Sri Web Development Intern', 0 , 'none listed', 'Connecting research and engineering to operations, data analytics, data acquisition/management' , false, ' sophormore/junior/senior in high school, cumulative GPA of 3.0+', 16, '902 Battelle Blvd, Richland, WA 99354', 'Pacific Northwest National laboratory'),
 ('Pathway to START Program Intership', 0 , 'initial 8 week program, otherwise not listed' , ' learning and understanding of all Tesla Vehicles, 40 hours a week, fundamentals of using basic hand tools', false, 'High School Diploma or GED', 18, 'Los Angeles, CA', 'Tesla Motors' ),
 ('Software Engineering Intern - Rising Senior', 0 , '2022 summer, otherwise not listed' , 'Analysis, design, implementation, integration, and tes of embedded software for real-time and client server applications', false, '3.0 GPA minimum, Enrolled in Bachelors degree in Science, Technology or Mathematics', 0, 'Anaheim, CA', 'L3Harris'),
-('Graduate Science Intern - Twitch', 0 , 'not listed', 'solve large-scale data problems, design solutions for Twitchs problem spaces, participate in talks',true , 'currently enrolled in a graduate program', 0,'Irvine, CA', ' Twitch');
+('Graduate Science Intern - Twitch', 0 , 'not listed', 'solve large-scale data problems, design solutions for Twitchs problem spaces, participate in talks',true , 'currently enrolled in a graduate program', 0,'Irvine, CA', ' Twitch'),
+('2022 Software Engineering Intern - Samsung', 0 , 'not listed', 'develop synthetic image datasets using 3d modeling software and/or GPU APIs thereby contributing to the development of novel HDR and SR technologies', false, 'No requirements, preferred working towards MS or PhD', 0 , 'Irvine, CA', 'Samsun Research America, SRA');
 
 
 

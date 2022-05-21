@@ -29,22 +29,32 @@ INSERT INTO internships values
 
 
 --Printing out the data by sorting it
-.print 'Internships ordered by title'
-SELECT * FROM internships ORDER BY title ASC;
+.print '---------------Internships ordered by title---------------'
+SELECT title, description FROM internships ORDER BY title ASC;
 
 .print
 .print
-.print 'Internships ordered by location'
-SELECT * FROM internships ORDER BY location ASC;
+.print '---------------Internships ordered by location---------------'
+SELECT title, location FROM internships ORDER BY location ASC;
+
+.print
+.print
+.print '---------------Internships ordered by company---------------'
+SELECT title, company FROM internships ORDER BY company ASC;
 
 
 --Printing out the data through Queries
 .print
 .print
-.print 'Internships filtered by paid'
-SELECT * FROM internships WHERE paid = true;
+.print '---------------Internships filtered by paid---------------'
+SELECT title, paid FROM internships WHERE paid = true;
 
 .print
 .print
-.print 'Internships filtered by age (>=16)'
-SELECT * FROM internships WHERE ageReq >= 16;
+.print '---------------Internships filtered by age (>=16)---------------'
+SELECT title, ageReq FROM internships WHERE ageReq >= 16;
+
+.print
+.print
+.print '---------------All Internships with Data---------------'
+SELECT * FROM internships

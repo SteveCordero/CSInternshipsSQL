@@ -23,8 +23,28 @@ INSERT INTO internships values
 ('Graduate Science Intern - Twitch', 0 , 'not listed', 'solve large-scale data problems, design solutions for Twitchs problem spaces, participate in talks',true , 'currently enrolled in a graduate program', 0,'Irvine, CA', ' Twitch'),
 ('2022 Software Engineering Intern - Samsung', 0 , 'not listed', 'develop synthetic image datasets using 3d modeling software and/or GPU APIs thereby contributing to the development of novel HDR and SR technologies', false, 'No requirements, preferred working towards MS or PhD', 0 , 'Irvine, CA', 'Samsun Research America, SRA');
 
+-- .print
+-- .print 'Internships'
+-- SELECT * FROM internships
 
+
+--Printing out the data by sorting it
+.print 'Internships ordered by title'
+SELECT * FROM internships ORDER BY title ASC;
 
 .print
-.print 'Internships'
-SELECT * FROM internships
+.print
+.print 'Internships ordered by location'
+SELECT * FROM internships ORDER BY location ASC;
+
+
+--Printing out the data through Queries
+.print
+.print
+.print 'Internships filtered by paid'
+SELECT * FROM internships WHERE paid = true;
+
+.print
+.print
+.print 'Internships filtered by age (>=16)'
+SELECT * FROM internships WHERE ageReq >= 16;
